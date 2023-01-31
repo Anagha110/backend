@@ -168,6 +168,6 @@ app.get('/*', function (req, res) {
   res.sendFile(path.join(__dirname + '/build/index.html'));
 });
 
-app.listen(3004, () => {
-  console.log("server listening to port 3004");
+app.listen(3000, () => {
+  console.log("server listening to port 3000");
 });
